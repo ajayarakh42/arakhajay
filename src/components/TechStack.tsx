@@ -10,31 +10,35 @@ export default function TechStack() {
                         <div className="flex flex-wrap justify-center gap-3">
                             <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Python</span>
                             <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">SQL</span>
-                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">R</span>
                         </div>
                     </div>
                     <div>
                         <h4 className="text-white font-bold mb-6 text-sm uppercase tracking-widest opacity-50">AI / ML</h4>
                         <div className="flex flex-wrap justify-center gap-3">
-                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">PyTorch</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Scikit-learn</span>
                             <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">LangChain</span>
-                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Scikit-Learn</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">LangGraph</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">LangSmith</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">LangFlow</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">n8n Workflow</span>
                         </div>
                     </div>
                     <div>
                         <h4 className="text-white font-bold mb-6 text-sm uppercase tracking-widest opacity-50">Data</h4>
                         <div className="flex flex-wrap justify-center gap-3">
-                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">PySpark</span>
                             <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Pandas</span>
-                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Snowflake</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">T-SQL</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">MySQL</span>
                         </div>
                     </div>
                     <div>
                         <h4 className="text-white font-bold mb-6 text-sm uppercase tracking-widest opacity-50">Cloud / Ops</h4>
                         <div className="flex flex-wrap justify-center gap-3">
-                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Azure</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Azure Services</span>
                             <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Databricks</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Azure AI Foundry</span>
                             <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Docker</span>
+                            <span className="px-4 py-2 bg-white/5 rounded-lg text-white font-medium border border-white/10">Azure Kubernetes Cluster</span>
                         </div>
                     </div>
                 </div>

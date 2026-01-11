@@ -4,22 +4,60 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
-        title: "FinBot: AI Wealth Advisor",
-        tech: ["LangChain", "FastAPI"],
-        description: "An autonomous RAG-based agent that analyzes portfolio distributions and provides real-time investment advice based on market trends.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBL9vY2ArtfLZjQgv5FlwaI3fQXHWtQqV7CP4RrP_Q9q92-FnYpghx-O3UC9UUWhmSSwZnN_lH3keZjGak3kUkAYy-MmVe1hwssuQvrp5hEQtKkqonLowJwWKeQLSV1iKH_Wb53e-Ua08UKPWeKilbeg7CcnvtOeDzYRAU2VFgpTSsk6Uum5zw9eOarrkkUSp7KesK9OA7uA4WjHeDoM9j9u6DdQoSn_3-uGCTx9CvMeK9WIC_LDLzSm0l2An0wBs4S7-rjkxTaUA"
+        title: "OpenAI QnA Chatbot with File Upload",
+        tech: ["OpenAI", "LangChain", "Streamlit"],
+        description: "Advanced QnA chatbot supporting TXT, PDF, DOCX uploads. Features model selection, temperature/token control, and a sleek dark-themed UI.",
+        image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop",
+        link: "https://openai-chatbot-f.streamlit.app/"
     },
     {
-        title: "CreditRisk v2.0",
-        tech: ["PyTorch", "Databricks"],
-        description: "Deep learning model for multi-factor credit risk assessment, processing over 100k applications daily with Explainable AI (SHAP) modules.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBL8yudM-PTpvU3VLmhN1HH7FAL8lvfCn_dQKv2vSFwkq9--_uAJDb04GkJqUj0smGD9aoMU4A2cEvv_AY-NjU8TK8jY-eSxzSMq2XazMKR7AaopfzhwzsaGj9EuJjJ3jSCWRHCLwZIiR2MGGyibtsevG08GuPjSn_3DmJZIAHU1x1EeqcLPE4WQDMYfkQxJ5hzjquBuwNv1Auyq0ofKe2PTdRnw4cGyK4LJtB3Sv_96_Jdb0IG0hzqZKFmvAx4PQ9n2sw1Ot4xkQ"
+        title: "LLM QnA Chatbot (LangChain & OpenAI)",
+        tech: ["LangChain", "OpenAI", "PromptEng"],
+        description: "Real-time QnA interface allowing dynamic model selection (gpt-4o-mini), parameter tuning, and custom API key integration.",
+        image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop",
+        link: "https://openai-qna-chatbot.streamlit.app/"
     },
     {
-        title: "AutoML Pipeline",
-        tech: ["Azure", "Terraform"],
-        description: "End-to-end automated deployment pipeline that manages the entire lifecycle from data ingestion to model serving on K8s.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuASXgv3phAqZ10ReoiIXBgW_m3-kBM3um74Ho0epAZJ11PTtd-tO8yjw7RxVdVxhxLCU4F0lwbTDKWs296R2d4ULUJFky8M_EUR5AX4EK2zPxn45qFSoOdUCPUqTnarUyj8I3hA4N0S1WWvVunG38hzkDCL4G9hkaWh3SCy9l_p1scSuDwua8tPna5NJqNal1w4rCKqaYgqh8e52r8rE9l-nT-RDhzEgx5tzC2-KbGCx5GWWwQl9lm2TiBuJ0ckuaJ2gZFHJGb94g"
+        title: "Groq API High-Speed Chatbot",
+        tech: ["Groq API", "LangChain", "HuggingFace"],
+        description: "Ultra-fast inference QnA bot using Groq’s API. Integrates prompt templates, memory, and custom document loaders for context-aware answers.",
+        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
+        link: "https://groq-llm-chatbot-context-history.streamlit.app/"
+    },
+    {
+        title: "FinBot – Financial Chatbot",
+        tech: ["LangChain", "HuggingFace"],
+        description: "Specialized AI chatbot designed to understand and answer queries related to complex financial documents and FAQs.",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+        link: "#"
+    },
+    {
+        title: "Allocation Models (PLCS & SAL)",
+        tech: ["Logistic Regression", "Segmentation"],
+        description: "ML logistic regression models to optimize delinquency routing, assigning customers to either field or telecalling teams.",
+        image: "https://images.unsplash.com/photo-1543286386-2f173f6092ea?q=80&w=2070&auto=format&fit=crop",
+        link: "#"
+    },
+    {
+        title: "Credit Card Risk Models",
+        tech: ["Credit Risk", "Monitoring"],
+        description: "Risk of flow models (PDD, PreX, Write-Off) developed to prioritize collection strategies for a base of ~2 million accounts.",
+        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1470&auto=format&fit=crop",
+        link: "#"
+    },
+    {
+        title: "Digital Payment Propensity",
+        tech: ["Classification", "Digital Collection"],
+        description: "Predictive model scoring customer likelihood to pay digitally, improving digital outreach efficiency and cost-savings.",
+        image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=2070&auto=format&fit=crop",
+        link: "#"
+    },
+    {
+        title: "Reporting Automation System",
+        tech: ["Python", "Databricks", "Automation"],
+        description: "Automated end-to-end reporting pipeline from Outlook to Databricks with email triggers, saving over 10 hours of manual work weekly.",
+        image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=1974&auto=format&fit=crop",
+        link: "#"
     }
 ];
 
@@ -62,7 +100,12 @@ export default function Projects() {
                                 <p className="text-slate-400 text-sm mb-6 grow leading-relaxed">
                                     {project.description}
                                 </p>
-                                <a className="inline-flex items-center text-white font-bold text-sm gap-2 hover:text-primary transition-colors cursor-pointer" href="#">
+                                <a
+                                    className="inline-flex items-center text-white font-bold text-sm gap-2 hover:text-primary transition-colors cursor-pointer"
+                                    href={project.link}
+                                    target={project.link === "#" ? "_self" : "_blank"}
+                                    rel="noopener noreferrer"
+                                >
                                     Case Study <span className="material-symbols-outlined text-[18px]">open_in_new</span>
                                 </a>
                             </div>

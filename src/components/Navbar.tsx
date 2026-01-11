@@ -14,9 +14,13 @@ export default function Navbar() {
                     <a className="text-sm font-medium hover:text-primary transition-colors text-slate-300" href="#projects">Projects</a>
                     <a className="text-sm font-medium hover:text-primary transition-colors text-slate-300" href="#stack">Tech Stack</a>
                 </nav>
-                <button className="bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all cursor-pointer">
-                    Resume
-                </button>
+                <a
+                    className="bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all cursor-pointer inline-block"
+                    href="/Ajay_Arakh_CV.pdf"
+                    download
+                >
+                    Download Resume
+                </a>
             </div>
         </header>
     );
