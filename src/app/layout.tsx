@@ -30,3 +30,22 @@ export default function RootLayout({
     </html>
   );
 }
+
+import Script from 'next/script';
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+
+        {/* Next.js Optimized Chatbot Script */}
+        <Script
+          src="http://localhost:3001/widget.bundle.js"
+          data-chatbot-id="b5b9f7d4-dbbb-44ab-b165-1e6dad2e4d95"
+          strategy="afterInteractive" // Loads once the page is interactive
+        />
+      </body>
+    </html>
+  );
+}
