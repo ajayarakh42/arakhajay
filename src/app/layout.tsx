@@ -34,7 +34,7 @@ export default function RootLayout({
           {`
             (function() {
               var script = document.createElement('script');
-              script.src = "http://localhost:3001/widget.bundle.js";
+              script.src = "https://zivoxagent.com/widget.bundle.js";
               script.setAttribute('data-chatbot-id', "91670030-b568-43b9-b74d-adf53a6aebc8");
               script.async = true;
               document.body.appendChild(script);
