@@ -29,7 +29,6 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased`}>
         {children}
 
-        {/* 2. Chatbot script replaced properly */}
         <Script id="chatbot-loader" strategy="afterInteractive">
           {`
             (function() {
